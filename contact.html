@@ -76,7 +76,7 @@
           <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 
           <script type="text/javascript">
-            var myLatlng = new google.maps.LatLng(48.8873870,2.3732850);
+            var myLatlng = new google.maps.LatLng(14.7288080,-17.4722470);
 
             var myOptions = {
                 zoom: 14,
@@ -266,9 +266,23 @@
           </script>
         </div>
         <div class="col-sm-6">
-          <h1>Contactez-nous</h1>
-          <p><i class="fa fa-map-marker" aria-hidden="true"></i> 52 avenue de Flandre</p>
-          <p><i class="fa fa-phone"></i> 01 ** ** ** 66</p>
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Votre email">
+              <small id="emailHelp" class="form-text text-muted">Nous ne partagerons pas votre email avec des tiers.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputNom">Nom</label>
+              <input type="nom" class="form-control" id="exampleInputNom" placeholder="Nom">
+            </div>
+           <div class="form-group">
+               <label for="exampleFormControlTextarea1">Message</label>
+               <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Votre message" rows="3"></textarea>
+             </div>
+            <button type="envoyer" class="btn btn-primary">Envoyer</button>
+          </form>
+
         </div>
       </div>
     </div>
